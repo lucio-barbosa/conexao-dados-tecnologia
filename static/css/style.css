@@ -1,0 +1,176 @@
+body {
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.hero-section {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)),
+        url("/static/img/banner-home.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+
+    padding: 140px 20px;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-tema {
+    background: linear-gradient(135deg, #07111f, #12345c);
+
+    color: white;
+
+    border: none;
+
+    border-radius: 15px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    overflow: hidden;
+}
+
+.card-tema:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25);
+
+    background:
+        linear-gradient(135deg, #0d6efd, #07111f);
+}
+
+.card-tema h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-tema p {
+    color: #dbe7ff;
+}
+
+.card-tema:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.box-destaque {
+    background-color: white;
+    border-left: 5px solid #0d6efd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+    background: linear-gradient(135deg, #07111f, #12345c);
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.footer {
+
+    background-color: #07111f;
+
+    font-size: 0.95rem;
+
+    border-top:
+        1px solid rgba(255,255,255,0.08);
+}
+
+.footer p {
+
+    color: #cfd8e3;
+}
+
+.laboratorio-section {
+
+    background:
+        linear-gradient(135deg, #07111f, #12345c);
+
+    color: white;
+
+    padding: 100px 20px;
+
+    margin-top: 80px;
+}
+
+.laboratorio-section p {
+
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    color: #dbe7ff;
+}
+
+/* =========================
+   CORES DOS PROJETOS
+========================= */
+
+.card-clima {
+
+    background:
+        linear-gradient(135deg, #07111f, #0d6efd);
+}
+
+.card-agro {
+
+    background:
+        linear-gradient(135deg, #07111f, #198754);
+}
+
+.card-eleitorado {
+
+    background:
+        linear-gradient(135deg, #07111f, #6f42c1);
+}
+
+.card-mercado {
+
+    background:
+        linear-gradient(135deg, #07111f, #fd7e14);
+}
+
+/* HOVER PERSONALIZADO */
+
+.card-clima:hover {
+
+    background:
+        linear-gradient(135deg, #0d6efd, #07111f);
+}
+
+.card-agro:hover {
+
+    background:
+        linear-gradient(135deg, #198754, #07111f);
+}
+
+.card-eleitorado:hover {
+
+    background:
+        linear-gradient(135deg, #6f42c1, #07111f);
+}
+
+.card-mercado:hover {
+
+    background:
+        linear-gradient(135deg, #fd7e14, #07111f);
+}
