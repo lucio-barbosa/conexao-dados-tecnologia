@@ -349,7 +349,9 @@ Plataforma de conteúdo técnico
 
 Estudante de Análise e Desenvolvimento de Sistemas.
 
-Entusiasta de:
+Estudante Full Stack em Dados e Analytics - Pod Academy
+
+foco em:
 
 * Engenharia de Dados
 * Inteligência Artificial
